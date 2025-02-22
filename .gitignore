@@ -1,0 +1,2 @@
+# Ignorar archivos temporales generados por el script
+tmp_*.txt
