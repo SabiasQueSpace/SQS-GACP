@@ -213,8 +213,10 @@ if errorlevel 1 (
     type tmp_ipapi.txt
 )
 del tmp_ipapi.txt
+echo.
 echo %GREEN%===================================================%RESET%
 
+echo.
 set /p respuesta=%YELLOW%¿Quieres bloquear esta IP en el Firewall? (S/N): %RESET%
 if /I "%respuesta%"=="S" goto bloquear_ip
 pause
